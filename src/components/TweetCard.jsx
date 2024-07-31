@@ -1,5 +1,6 @@
 
-function Tweet(props) {
+
+function TweetCard(props) {
 
     const {tweet} = props;
 
@@ -38,7 +39,6 @@ function Tweet(props) {
         </div>
     )
 
-
 }
 
-export default Tweet;
+export default TweetCard;
